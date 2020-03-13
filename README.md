@@ -86,6 +86,7 @@ public class day02 {
         return str1.substring(0,gmt(str1.length(),str2.length()));
     }
     private static int gmt(int a,int b){
+<<<<<<< HEAD
         //判断b是否等于0，如果等于0则返回a;递归算法
         return b==0?a:gmt(b,a%b);
     }
